@@ -1,0 +1,3 @@
+[submodule "Namecheap-DDNS"]
+	path = Namecheap-DDNS
+	url = git@github.com:CydrickT/Namecheap-DDNS.git
