@@ -6,7 +6,7 @@ Dockerfile for building a Namecheap DDNS auto-updater with Pushover notification
 
 | Environment Variable | Description |
 | -------------------- | ----------- |
-| `NAMECHEAP_HOST` | Host for the Namecheap domain. Should be `@` |
+| `NAMECHEAP_HOST` | Host for the Namecheap domain. (ie: `@`) |
 | `NAMECHEAP_DOMAIN` | Your domain name (ie: `example.com`) |
 | `NAMECHEAP_DDNS_PASSWORD` | `Dynamic DNS Password` in Namecheap |
 | `PUSHOVER_USER_TOKEN` | `User Key` in Pushover |
