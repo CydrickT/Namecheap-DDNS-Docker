@@ -13,6 +13,14 @@ Dockerfile for building a Namecheap DDNS auto-updater with Pushover notification
 | `PUSHOVER_APP_TOKEN` | `API Token/Key` in Pushover |
 | `CHECK_PERIOD` | Period in seconds for which the IP check is done (ie: `30` for 30 seconds) |
 
+## Building & Running
+
+1. `git submodule update --recursive`
+1. `docker build <path to directory containing Dockerfile>`
+1. Either:
+   1. `docker run -t -d --env-file <Environment variable file> <image>`
+   1. `docker run -e NAMECHEAP_HOST=<Namecheap Host> -e NAMECHEAP_DOMAIN=<Namecheap Dplain> -e NAMECHEAP_DDNS_PASSWORD=<Pushover DDNS Password> -e PUSHOVER_USER_TOKEN=<Pushover User Token> -e PUSHOVER_APP_TOKEN=<Pushover App Token> -e CHECK_PERIOD=30 <Image>`
+
 ## Features
 
 ### IP Monitoring Service
