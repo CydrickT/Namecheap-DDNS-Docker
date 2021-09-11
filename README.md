@@ -34,17 +34,17 @@ When the IP is updated, a Pushover notification will be sent. Furthermore, if th
 Here is a template configuration in order to enable the Dynamic DNS feature.
 
 1. Under your domain, in the tab "Advanced DNS", add a host record with the following arguments:
-1.1. Type: `A+ Dyamic DNS Record`
-1.2. Host: `@`
-1.3. Value: `8.8.8.8` (note: Will be changed by the DDNS)
-1.4. TTL: `Automatic`
-2. Still in the "Advanced DNS" tab, enable the `Dynamic DNS` feature. Note the `Dynamic DNS Password`.
+   1. Type: `A+ Dyamic DNS Record`
+   1. Host: `@`
+   1. Value: `8.8.8.8` (note: Will be changed by the DDNS)
+   1. TTL: `Automatic`
+1. Still in the "Advanced DNS" tab, enable the `Dynamic DNS` feature. Note the `Dynamic DNS Password`.
 
 ### Pushover configuration
 
 1. On Pushover, note the `User Key` displayed at the top left.
-2. Create an application:
-2.1. Click on "Create an Application/API Token"
-2.2. Enter a name and description of your choice for the application
-2.3. Note the `API Token/Key`
+1. Create an application:
+   1. Click on "Create an Application/API Token"
+   1. Enter a name and description of your choice for the application
+   1. Note the `API Token/Key`
 
